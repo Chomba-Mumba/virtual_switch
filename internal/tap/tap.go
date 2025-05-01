@@ -11,7 +11,7 @@ func Main() {
 	config := water.Config{
 		DeviceType: water.TAP,
 	}
-	config.Name = "TAP_DEVICE"
+	config.Name = "tap0"
 
 	ifce, err := water.New(config)
 	if err != nil {

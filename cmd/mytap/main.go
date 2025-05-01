@@ -1,4 +1,4 @@
-package mytap
+package main
 
 import (
 	"github.com/chomba-mumba/virtual_switch/internal/tap"
